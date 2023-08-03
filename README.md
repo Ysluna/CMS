@@ -2,9 +2,6 @@
 > Este proyecto fue creado para el curso de Desarrollo Web Full Stack de [SomosCoders](https://somoscoders.org/es) & [Fundación Empujar](https://fundacionempujar.org/)
 
 ## Visión General
-
-### La Tarea
-
 > Los usuarios deberían ser capaces de:
 
 - Ver el diseño óptimo del sitio en función del tamaño de la pantalla de su dispositivo.
