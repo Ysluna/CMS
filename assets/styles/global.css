@@ -1,0 +1,197 @@
+
+:root {
+    --green: #DBF4A7;
+    --purple: #7D84B2;
+    --grey: #D9D9D9;
+    --background: #F9F9ED; 
+    --light: #F5F5F5;
+    --text: 'Ubuntu', sans-serif;
+    --headings: 'Rowdies', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: var(--text);
+    color: black; 
+    background-color: var(--background);
+}
+
+a {
+    text-decoration: none;
+    color: var(--light);
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.links a {
+    padding-right: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 10px;
+}
+
+nav a {
+    padding-right: 15px;
+}
+    
+
+nav a:hover{
+    color: var(--purple);
+}
+
+.buttom-blog {
+    background-color: var(--green);
+    padding: 13px 5px 12px 20px; 
+}
+
+p {
+    font-size: 1em;
+}
+
+
+/* Header */
+header {
+    width: 100%;
+    height: 50px;
+    color: black;
+    background-color: var(--background);
+    display: flex;
+    align-items: center;
+    column-gap: 0.94rem;
+    padding: 0.8rem;
+    text-align: center;
+}
+
+.header-img {
+    height: 2.8rem;
+    margin-left: 0.5rem;
+} 
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: var(--dark); 
+} 
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (min-width: 1024px) {
+    header {
+        text-align: left;
+    }
+    p {
+        font-size: 1.3em;
+    }
+}
+
+
+/*Purple text*/
+
+.purple-block {
+    height: 300px;
+    background-color: var(--purple);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.content-purple-block {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 24px;
+    line-height: 1.4;
+    color: var(--light);
+}
+
+.buttom-color {
+    background-color: var(--grey);
+    color: black;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button {
+    font: inherit;
+}
+
+@media (max-width: 700px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-bottom: 3px;;
+    }
+    .purple-block {
+        margin-top: 65px;
+        padding-top: 10px;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-purple-block {
+    font-size: 18px;
+    align-items: center; 
+    }
+
+    .buttom-color {
+    font-size: 14px; 
+    }
+
+    .footer ul {
+        align-items: center;
+        flex-direction: column;
+
+    }
+}
+
+/* Footer */
+.footer-content{
+    width: 100%;
+    background-color: var(--grey);
+    row-gap: 1rem;
+    padding: 20px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: black; 
+} 
+
+footer li a {
+    text-decoration: none;
+    color: black;
+}
+
