@@ -1,12 +1,17 @@
+/*  font-family: 'Archivo Black', sans-serif;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Bungee', cursive;
+    font-family: 'Capriola', sans-serif; */
+
 
 :root {
     --green: #DBF4A7;
     --purple: #7D84B2;
     --grey: #D9D9D9;
+    --darkgreen: #B9CE8D; 
+    --brown: #4B2900; 
     --background: #F9F9ED; 
     --light: #F5F5F5;
-    --text: 'Ubuntu', sans-serif;
-    --headings: 'Rowdies', cursive;
 }
 
 * {
@@ -18,9 +23,12 @@
 body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
-    font-family: var(--text);
+    font-family: 'Arimo', sans-serif;
     color: black; 
     background-color: var(--background);
+   
+    
+    
 }
 
 a {
@@ -53,7 +61,7 @@ nav a {
     
 
 nav a:hover{
-    color: var(--purple);
+    color: violet;
 }
 
 .buttom-blog {
@@ -110,11 +118,13 @@ nav li a {
 /*Purple text*/
 
 .purple-block {
+   
     height: 300px;
     background-color: var(--purple);
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    padding-bottom: 30px;
 }
 
 .content-purple-block {
@@ -126,7 +136,7 @@ nav li a {
     color: var(--light);
 }
 
-.buttom-color {
+.buttom-purple {
     background-color: var(--grey);
     color: black;
     font-size: 15px;
@@ -141,31 +151,75 @@ button {
     font: inherit;
 }
 
-@media (max-width: 700px) {
+.updates, .tools, .join {
+    font-family: 'Archivo Black', sans-serif;
+    color: var(--brown);
+    margin: 25px;
+}
 
+/* Green text */
+
+.green-block {
+    height: 400px;
+   
+    background-color: var(--green);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 40px;
+    padding-bottom: 30px;
+   
+}
+
+.content-green-block {
+    text-align: center;
+    line-height: 1.4;
+    color: #3D2D1B;
+    font-family:'Bungee', cursive;
+    font-size: px;
+}
+
+.buttom-green {
+    background-color: var(--darkgreen);
+    color: black;
+    font-family: 'Capriola', sans-serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+@media (max-width: 700px) {
+    
     header {
         flex-direction: column;
     }
 
+    
     .logo {
         margin-bottom: 3px;;
     }
+
     .purple-block {
         margin-top: 65px;
-        padding-top: 10px;
+        padding-top: 20px;
         height: auto;
         flex-direction: column;
         align-items: center;
     }
 
-    .content-purple-block {
-    font-size: 18px;
+    
+    .content-purple-block, .content-green-block {
+    font-size: 15px;
     align-items: center; 
+    margin: 0; 
     }
 
-    .buttom-color {
+    .buttom-purple, .buttom-green {
     font-size: 14px; 
     }
+
 
     .footer ul {
         align-items: center;
@@ -176,8 +230,11 @@ button {
 
 /* Footer */
 .footer-content{
+    
     width: 100%;
+   
     background-color: var(--grey);
+    font-family: 'Archivo Black', sans-serif;
     row-gap: 1rem;
     padding: 20px;
 }
@@ -195,3 +252,6 @@ footer li a {
     color: black;
 }
 
+
+  
+  
