@@ -147,7 +147,7 @@ button:hover{
 
     .social-media-btn{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .google-btn, .facebook-btn{
@@ -199,7 +199,7 @@ button:hover{
     
     .social-media-btn{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .google-btn, .facebook-btn{
