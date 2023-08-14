@@ -6,9 +6,9 @@
 
 :root {
     --green: #DBF4A7;
-    --purple: #7D84B2;
+    --purple: #7D84B2; 
     --grey: #D9D9D9;
-    --darkgreen: #B9CE8D; 
+    --darkgreen: #94a573; 
     --brown: #4B2900; 
     --background: #F9F9ED; 
     --light: #F5F5F5;
@@ -33,7 +33,7 @@ body {
 
 a {
     text-decoration: none;
-    color: var(--light);
+    color: var(--light)
 }
 
 header, footer {
@@ -61,7 +61,7 @@ nav a {
     
 
 nav a:hover{
-    color: violet;
+    color: #6a1ba2;
 }
 
 .buttom-blog {
@@ -157,11 +157,43 @@ button {
     margin: 25px;
 }
 
+/* Carousel */
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.carousel-card {
+    flex: 0 0 calc(33.33% - 20px);
+    margin-right: 20px;
+    background-color: var(--purple);
+    color: var(--light);
+    font-family: 'Arimo', sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+@media (max-width: 768px) {
+    .carousel {
+        flex-direction: column;
+    }
+
+    .carousel-card {
+        flex: 1; 
+        margin-right: 0;
+        margin-bottom: 20px; 
+    }
+}
+
 /* Green text */
 
 .green-block {
     height: 400px;
-   
+    color: var(--light);
     background-color: var(--green);
     display: flex;
     justify-content: center;
@@ -176,12 +208,11 @@ button {
     line-height: 1.4;
     color: #3D2D1B;
     font-family:'Bungee', cursive;
-    font-size: px;
 }
 
 .buttom-green {
     background-color: var(--darkgreen);
-    color: black;
+    color: var(--light);
     font-family: 'Capriola', sans-serif;
     font-size: 15px;
     border: none;
@@ -190,17 +221,24 @@ button {
     margin-top: 20px;
     cursor: pointer;
 }
+
+.buttom-green:hover,
+.buttom-green:active,
+.buttom-green:focus {
+    background-color: #6a1ba2;
+}
+
+.buttom-green:visited {
+    color: var(--light);
+}
 @media (max-width: 700px) {
     
     header {
         flex-direction: column;
     }
-
-    
     .logo {
         margin-bottom: 3px;;
     }
-
     .purple-block {
         margin-top: 65px;
         padding-top: 20px;
@@ -208,19 +246,14 @@ button {
         flex-direction: column;
         align-items: center;
     }
-
-    
     .content-purple-block, .content-green-block {
     font-size: 15px;
     align-items: center; 
     margin: 0; 
     }
-
     .buttom-purple, .buttom-green {
     font-size: 14px; 
     }
-
-
     .footer ul {
         align-items: center;
         flex-direction: column;
@@ -229,10 +262,9 @@ button {
 }
 
 /* Footer */
+
 .footer-content{
-    
     width: 100%;
-   
     background-color: var(--grey);
     font-family: 'Archivo Black', sans-serif;
     row-gap: 1rem;
