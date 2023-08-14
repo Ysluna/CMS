@@ -8,26 +8,21 @@
 - 
 - 
 
-### Screenshots & Figma
-
-Vista de Navegador
-Vista de Teléfono
-
 [Archivo de Figma](https://www.figma.com/file/gY397ySAP5oGdNuEbFdSpH/CMS---Equipo-3?type=design&node-id=0-1&mode=design&t=u2Fb8Yf8vykDra65-0)
 
 [Trello](https://trello.com/b/4FncHCwr/cms)
 
-### Sitio Web
-
-- URL del Sitio: 
 
 ### Hecho con
 
-- HTML
-- CSS
-- Flexbox
-- JavaScript
-- Flujo de trabajo Mobile-first
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3) 
+![Javascript](https://img.shields.io/badge/-JavaScript-EDD222?style=flat&logo=javascript&logoColor=white)
+
+#### Herramientas:
+![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/-Github-181717?style=flat&logo=github&logoColor=white)
 
 ## Autoras
 
