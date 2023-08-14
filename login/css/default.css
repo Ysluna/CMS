@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: url('/assets/bckgnd-mobile.png');
+    background-image: url('../assets/bckgnd-mobile.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -114,7 +114,7 @@ button:hover {
 @media screen and (min-width: 992px) {
     
     body {
-        background-image: url('/assets/login-background-responsive.png');
+        background-image: url('../assets/login-background-responsive.png');
         background-size: cover;
     }
 
@@ -179,7 +179,7 @@ button:hover {
 
     
     body{
-        background-image: url('/assets/Login\ background.png');
+        background-image: url('../assets/Login\ background.png');
         background-size: 1450px;
     }
 

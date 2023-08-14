@@ -30,7 +30,7 @@
 - Github - [Ysluna](https://github.com/Ysluna)
 - Linkedin - [Zoe Carida](https://www.linkedin.com/in/zoe-n-carida-6158b927a/)
 - Github - [ZoeC21](https://github.com/ZoeC21)
-- Linkedin - [Paula Cizmadija]()
+- Linkedin - [Paula Cizmadija](https://www.linkedin.com/in/paulacizmadija/)
 - Github - [Paucizmadija](https://github.com/Paucizmadija)
 - Linkedin - [Lourdes Godoy Lotta](https://www.linkedin.com/in/lourdes-camila-godoy-lotta-0330621bb/)
 - Github - [LoulyGodoyLotta](https://github.com/LoulyGodoyLotta)
