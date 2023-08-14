@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@100&display=swap');
+
+*{
+    background-color: f9f9ed;
+    display: grid;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Container-nav{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.icon-list{
+    padding-left: 20px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.Container-nav img{
+    padding-left: 20px;
+    padding-top: 30px;
+    cursor: pointer;
+    width: 70px;
+}
+
+.icon-gear{
+    padding-left: 900px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.Container-nav h2{
+    font-family: 'Chivo', sans-serif;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: small;
+    background-color: #DBF4A7;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    border-radius: 7px;
+}
+
+.icon-user{
+    margin-top: 40px;
+    margin-left: 20px;
+    background-color: #e6e6e6;
+    padding: 10px 14px 10px 14px;
+    border-radius: 100%;
+}
+
+.Contenedor-padre{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.side-bar{
+    display: grid;
+    text-align: justify;
+}
+
+.Inicio-sesion{
+    display: flex;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    cursor: pointer;
+    font-family: 'Chivo', sans-serif;
+}
+
+.List h2{
+    background-color: #f0f0f0;
+    border-radius: 7px;
+    text-align: center;
+    font-size: small;
+    font-family: 'Chivo', sans-serif;
+    padding: 20px 0px 20px 0px;
+    cursor: pointer;
+}
+
+.List p{
+    text-align: center;
+    padding-top: 40px;
+    cursor: pointer;
+    font-family: 'Chivo', sans-serif;
+}
+
+.List .bar-low{
+    text-align: center;
+    font-size:small;
+    font-family: 'Chivo', sans-serif;
+    margin-top: 350px
+}
+
+.navegation-bar{
+    background-color:#7D84B2;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+
+.navegation-bar h2{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: 'Dela Gothic One', cursive;
+    color: #f0f0f0;
+}
+
+.container-fluid{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.icon-categoria{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #292929;
+}
+
+.text-categoria{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    font-family: 'Chivo', sans-serif;
+}
+
+.Container-plantillas h2{
+    margin-top: 50px;
+    font-family: 'Chivo', sans-serif;
+}
+
+.Plantillas{
+    display: flex;
+    justify-content: space-around;
+    height: 180px;
+    cursor: pointer;
+    margin-bottom: 70px
+}
+
+.Container-herramientas{
+    font-family: 'Chivo', sans-serif;
+}
+
+.Herramientas{
+    display: flex;
+    justify-content: space-around;
+    height: 180px;
+    cursor: pointer;
+}
