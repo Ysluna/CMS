@@ -18,6 +18,8 @@
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3) 
 ![Javascript](https://img.shields.io/badge/-JavaScript-EDD222?style=flat&logo=javascript&logoColor=white)
+![Sass](https://img.shields.io/badge/-Sass-C76494?style=flat&logo=sass&logoColor=white
+)
 
 #### Herramientas:
 ![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
