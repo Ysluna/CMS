@@ -1,0 +1,15 @@
+{
+  "name": "cms",
+  "version": "1.0.0",
+  "description": "> Este proyecto fue creado para el curso de Desarrollo Web Full Stack de [SomosCoders](https://somoscoders.org/es) & [Fundación Empujar](https://fundacionempujar.org/)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
