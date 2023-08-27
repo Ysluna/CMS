@@ -1,0 +1,31 @@
+$green: #DBF4A7;
+$purple: #7D84B2; 
+$grey: #D9D9D9;
+$darkgreen: #94a573; 
+$brown: #4B2900; 
+$background: #F9F9ED; 
+$light: #F5F5F5;
+
+.Container-plantillas h2{
+    margin-top: 50px;
+    font-family: 'Chivo', sans-serif;
+}
+
+.Plantillas{
+    display: flex;
+    justify-content: space-around;
+    height: 180px;
+    cursor: pointer;
+    margin-bottom: 70px
+}
+
+.Container-herramientas{
+    font-family: 'Chivo', sans-serif;
+}
+
+.Herramientas{
+    display: flex;
+    justify-content: space-around;
+    height: 180px;
+    cursor: pointer;
+}

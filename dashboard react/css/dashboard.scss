@@ -1,0 +1,29 @@
+@use 'header';
+@use 'sideBar';
+@use 'navBar';
+@use 'plantillas';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@100&display=swap');
+
+$green: #DBF4A7;
+$purple: #7D84B2; 
+$grey: #D9D9D9;
+$darkgreen: #94a573; 
+$brown: #4B2900; 
+$background: #F9F9ED; 
+$light: #F5F5F5;
+
+*{
+    background-color: $background;
+    display: grid;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Contenedor-padre{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}

@@ -1,0 +1,47 @@
+$green: #DBF4A7;
+$purple: #7D84B2; 
+$grey: #D9D9D9;
+$darkgreen: #94a573; 
+$brown: #4B2900; 
+$background: #F9F9ED; 
+$light: #F5F5F5;
+
+.navegation-bar{
+    background-color:$purple;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+
+.navegation-bar h2{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: 'Dela Gothic One', cursive;
+    color: #f0f0f0;
+}
+
+.container-fluid{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.icon-categoria{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #292929;
+}
+
+.text-categoria{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    font-family: 'Chivo', sans-serif;
+}
