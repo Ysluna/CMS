@@ -1,12 +1,21 @@
-import { useState } from 'react'
 import './App.css'
-import { PrimerComponente } from './components/PrimerComponente'
+import { Header } from './components/Header'
+import { Sidebar } from './components/Sidebar'
+import { Nav } from './components/Nav'
+import { Plantillas } from './components/Plantillas'
+
 
 function App() {
   return (
     <>
       
-      <PrimerComponente />
+      <Header />
+
+      <Sidebar />
+
+      <Nav />
+
+      <Plantillas />
 
     </>
   )
