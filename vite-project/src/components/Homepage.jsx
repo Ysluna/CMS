@@ -41,19 +41,19 @@ export default function Homepage() {
         <div className="green-block">
         <div className="content-green-block">
           <p>
-            Súmate a millones de blogueros
+            Sumate a millones de blogueros
             <br />
-            Tanto si quieres compartir tus
+            Tanto si queres compartir tus
             <br />
             conocimientos como dar las últimas
             <br />
             noticias o decir lo que se te pase
             por la cabeza,
             <br />
-            en Blogger estás muy bien acompañado.
+            en " " estás muy bien acompañado.
             <br />
-            Regístrate para saber por qué millones de personas
-            han escrito aquí sobre lo que les apasiona
+            Registrate para saber por qué millones de personas
+            han escrito sobre lo que les apasiona
           </p>
           <button class="buttom-green"><a href="#">Crea tu blog</a></button>
           
