@@ -3,35 +3,29 @@ import React from 'react';
 export default function Homepage() {
   return (
     <>
-      <header>
-        <a href="index.html" className="logo">
-          <img className="header-img" src="./logo.png" alt="cms logo" />
-        </a>
-        <nav className="nav-content">
-          <ul className="nav">
-            <li><a href="#">INICIAR SESIÓN</a></li>
-            <li className="buttom-blog"><a href="#">Crea tu blog</a></li>
-          </ul>
-        </nav>
-      </header>
-
+      <div className="purple-block">
+      <div className="content-purple-block">
+        <p>¿Estás listo<br />para empezar<br />a crear?</p>
+        
+      </div>
+      </div>
       <h2 className="title">¿Por qué elegirnos?</h2>
       <div className="container-box">
-        <div className="box box1">
+        <div className="box">
           <img src="./diseño.png" alt="" />
           <h2>Diseños Increíbles</h2>
           <div className="container-p">
             <p>Cambia cómo se ve tu blog eligiendo colores, fuentes y bordes diferentes. Incluso puedes tener control total del diseño.</p>
           </div>
         </div>
-        <div className="box box2">
+        <div className="box">
           <img src="./facil-uso.png" alt="" />
           <h2>Fácil de Usar</h2>
           <div className="container-p">
             <p>Organiza tus textos y fotos de manera sencilla. Añade muchas cosas, como fotos profesionales, música, videos, documentos y más.</p>
           </div>
         </div>
-        <div className="box box3">
+        <div className="box">
           <img src="./plantillas.png" alt="" />
           <h2>Plantillas Personalizadas</h2>
           <div className="container-p">
