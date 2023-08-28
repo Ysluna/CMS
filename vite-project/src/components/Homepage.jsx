@@ -15,7 +15,7 @@ export default function Homepage() {
           <img src="./diseño.png" alt="" />
           <h2>Diseños Increíbles</h2>
           <div className="container-p">
-            <p>Cambia cómo se ve tu blog eligiendo colores, fuentes y bordes diferentes. Incluso puedes tener control total del diseño.</p>
+            <p>Cambia cómo se ve tu blog eligiendo colores, fuentes y bordes diferentes. Incluso podes tener control total del diseño.</p>
           </div>
         </div>
         <div className="box">
